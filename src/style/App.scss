@@ -1,0 +1,20 @@
+@mixin theme(#theme : 'SkyBlue'){
+	background : $theme;
+}
+
+.todo-list-template{
+	background : white;
+	width : 512px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin : 0 auto;
+	margin-top : 4rem;
+}
+
+.todo-list-title{
+	background : skyblue;
+	font-size : 40px;
+	text-align : center;
+	padding : 20px;
+	color : white;
+	
+}
